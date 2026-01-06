@@ -1,0 +1,13 @@
+# Render Deployment Configuration
+# This file helps Render detect and run the Python FastAPI application
+
+# Build command (install dependencies)
+# build: pip install -r requirements.txt
+
+# Start command (run Uvicorn server)
+# start: uvicorn app.main:app --host 0.0.0.0 --port 8000
+
+# Environment variables needed:
+# MONGODB_URI: MongoDB connection string
+# GOOGLE_GEMINI_API_KEY: Google Gemini API key
+# FRONTEND_URL: Frontend URL (e.g., https://your-frontend.vercel.app)
