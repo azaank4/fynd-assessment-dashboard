@@ -4,4 +4,3 @@ pymongo
 google-generativeai
 python-dotenv
 python-multipart
-bson
